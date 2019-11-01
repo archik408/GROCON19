@@ -1,0 +1,18 @@
+{
+    "extends": ["airbnb-base", "prettier"],
+    "env": {
+        "node": true,
+        "jest": true
+    },
+    "rules": {
+        "curly": ["error", "all"],
+        "no-restricted-globals": 0,
+        "no-underscore-dangle": 0,
+        "no-console": 0,
+        "no-plusplus": 0,
+        "no-prototype-builtins": 0,
+        "no-use-before-define": 0,
+        "no-restricted-syntax": ["error", "WithStatement", "BinaryExpression[operator='in']"],
+        "linebreak-style": "off"
+    }
+}
